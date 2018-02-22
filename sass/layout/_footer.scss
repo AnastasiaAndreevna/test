@@ -1,0 +1,43 @@
+footer {
+    text-align: center;
+    padding-bottom: 40px;
+
+    .footer-logo {
+        margin-right: 205px;
+    }
+
+    .footer-social-links {
+        @include display-flex;
+        justify-content: center;
+
+        li {
+            padding-right: 20px;
+            margin-right: -80px;
+            margin-top: -70px;
+        }
+
+        .fa {
+            font-size: 30px;
+            color: black;
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+
+    .rubarb {
+        font-family: $second-font;
+        font-size: 12px;
+        font-weight: 400;
+
+        a {
+            cursor: pointer;
+        }
+
+        span {
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+    }
+}

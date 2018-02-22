@@ -1,0 +1,78 @@
+//Sections3
+
+.frontender-skills {
+    background-color: #f4f4f4;
+    background-size: cover;
+    ul {
+        @include display-flex;
+        justify-content: flex-end;
+
+        li {
+            padding-top: 4rem;
+            padding-right: 10rem;
+
+            .img-top {
+                display: block;
+                margin-top: 20px;
+            }
+
+            .img-left {
+                margin-left: 45px;
+            }
+
+            .title-skills {
+                font-family: $main-font;
+                font-size: 30px;
+                font-weight: 700;
+                text-transform: uppercase;
+                text-align: center;
+                padding-top: 10px;
+                margin-top: -100px;
+
+            }
+
+            .skills {
+                display: block;
+                font-family: $second-font;
+                font-size: 18px;
+                font-weight: 400;
+                padding-left: 90px;
+                padding-bottom: 40px;
+                white-space: pre-line;
+            }
+
+            .f-item {
+                padding-left: 118px;
+            }
+
+            .first-item {
+                &:before {
+                    content: '1';
+                    font-family: $second-font;
+                    font-size: 100px;
+                    font-weight: 700;
+                }
+            }
+
+            .second-item {
+
+                &:before {
+                    content: '2';
+                    font-family: $second-font;
+                    font-size: 100px;
+                    font-weight: 700;
+
+                }
+            }
+
+            .third-item {
+                &:before {
+                    content: '3';
+                    font-family: $second-font;
+                    font-size: 100px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

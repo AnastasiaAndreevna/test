@@ -1,0 +1,93 @@
+//Slider
+
+.slider {
+
+    .main-slide {
+        display: none;
+        position: relative;
+
+        .main-banner {
+            text-align: center;
+            padding: 80px 0;
+
+            h2 {
+                color: $main-color;
+                font-family: $main-font;
+                font-size: 38px;
+                line-height: 40px;
+                font-weight: 700;
+                text-transform: uppercase;
+                white-space: pre-line;
+
+                span {
+                    font-size: 35px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+    }
+
+    .curry {
+        display: block;
+    }
+}
+
+//Header-menu
+.opacity {
+    max-width: 1348px;
+    background-color: #000000;
+    opacity: 0.7;
+    height: 15vh;
+
+    .header-logo {
+        display: inline-block;
+        padding-top: 15px;
+    }
+
+    .main-menu {
+        @include display-flex;
+        justify-content: center;
+        margin-left: -180px;
+        margin-right: 20px;
+
+        .main-menu-item {
+            padding-right: 15px;
+            margin-top: -60px;
+
+            a {
+                font-family: $second-font;
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: $main-color;
+            }
+        }
+    }
+
+    .info {
+        @include display-flex;
+        justify-content: flex-end;
+        margin-right: -5px;
+
+        .info-item {
+            margin-top: -73px;
+            padding-left: 5px;
+            color: $primary-color;
+            font-family: $main-font;
+            font-size: 13px;
+            font-weight: 400;
+            text-transform: uppercase;
+
+            a {
+                @extend .info-item
+            }
+        }
+
+        .lang {
+            border-right: 1px solid $primary-color;
+            height: 12px;
+            padding-right: 5px;
+        }
+    }
+}

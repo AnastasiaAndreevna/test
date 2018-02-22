@@ -1,0 +1,175 @@
+//Header-buttons
+
+.link-yes {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #020202;
+    opacity: 0.7;
+    color: $main-color;
+    font-family: $main-font;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    border: 1px solid white;;
+    padding: 10px 40px 17px 50px;
+    margin-left: -5px;
+
+    &:hover {
+        background-color: $main-color;
+        color: black;
+        opacity: 0.9;
+        font-weight: bold;
+    }
+}
+
+.prev {
+    position: absolute;
+    top: 483px;
+    right: 22px;
+
+}
+
+.next {
+    position: absolute;
+    top: 483px;
+    left: 22px;
+}
+
+//Buttons more
+.more-info1 {
+    display: block;
+    margin-left: 40px;
+    margin-top: 50px;
+    color: #000000;
+    font-family: $main-font;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    border: 3px solid $primary-color;
+    background-color: $primary-color;
+    padding: 17px 6px 16px 72px;
+    width: 227px;
+
+}
+
+.more-info2 {
+    @extend .more-info1;
+    margin-left: 80px;
+}
+
+//Font-awesome
+.social {
+
+    .share {
+        font-size: 15px;
+        position: absolute;
+        right: 30px;
+        bottom: 165px;
+        color: $main-color;
+        text-transform: uppercase;
+        -webkit-transform: rotate(90deg);
+
+        &:hover {
+            color: $primary-color;
+            opacity: 0.9;
+            cursor: pointer;
+        }
+    }
+    .fa-facebook {
+        font-size: 20px;
+        position: absolute;
+        right: 30px;
+        bottom: 50px;
+        color: $main-color;
+        border: 1px solid $main-color;
+        border-radius: 25px;
+        padding: 9px 15px 8px 14px;
+        background-color: black;
+        opacity: 0.7;
+
+        &:hover {
+            background-color: $primary-color;
+            opacity: 0.9;
+            cursor: pointer;
+        }
+    }
+
+    .fa-twitter {
+        font-size: 20px;
+        position: absolute;
+        right: 30px;
+        bottom: 100px;
+        color: $main-color;
+        border: 1px solid $main-color;
+        border-radius: 25px;
+        padding: 12px 10px 9px 11px;
+        background-color: black;
+        opacity: 0.7;
+
+        &:hover {
+            background-color: $primary-color;
+            opacity: 0.9;
+            cursor: pointer;
+        }
+    }
+}
+
+.social-2 {
+    position: relative;
+
+    .share {
+        font-size: 15px;
+        position: absolute;
+        left: 76rem;
+        top: 43rem;
+        color: black;
+        opacity: 0.4;
+        text-transform: uppercase;
+        -webkit-transform: rotate(90deg);
+
+        &:hover {
+            color: $primary-color;
+            opacity: 0.9;
+            cursor: pointer;
+        }
+
+    }
+
+    .fa-facebook {
+        font-size: 20px;
+        position: absolute;
+        left: 76rem;
+        top: 47rem;
+        color: $main-color;
+        border: 1px solid $main-color;
+        border-radius: 25px;
+        padding: 9px 15px 8px 14px;
+        background-color: black;
+        opacity: 0.3;
+
+        &:hover {
+            background-color: $primary-color;
+            opacity: 0.9;
+            cursor: pointer;
+        }
+    }
+
+    .fa-twitter {
+        font-size: 20px;
+        position: absolute;
+        left: 76rem;
+        top: 50rem;
+        color: $main-color;
+        border: 1px solid $main-color;
+        border-radius: 25px;
+        padding: 12px 10px 9px 11px;
+        background-color: black;
+        opacity: 0.3;
+
+        &:hover {
+            background-color: $primary-color;
+            opacity: 0.9;
+            cursor: pointer;
+        }
+    }
+}
